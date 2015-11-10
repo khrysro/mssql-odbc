@@ -1,15 +1,19 @@
-# ppoffice/apache-php-odbc-mssql
+# ppoffice/mssql-odbc
 Dockerfile of Ubuntu Trusty with Microsoft SQL Server ODBC Driver Support
+
+```bash
+docker pull ppoffice/mssql-odbc
+```
 
 ## Build
 ```bash
-docker build -t ppoffice/microsoft-odbc .
+docker build -t ppoffice/mssql-odbc .
 ```
 
 ## Running
 ```bash
-docker run -it ppoffice/microsoft-odbc /bin/bash
+docker run -it ppoffice/mssql-odbc:latest /bin/bash
 ```
 
-## Issue
-[https://github.com/ppoffice/microsoft-odbc/issues](https://github.com/ppoffice/microsoft-odbc/issues)
+## Issues
+[https://github.com/ppoffice/mssql-odbc/issues](https://github.com/ppoffice/mssql-odbc/issues)
